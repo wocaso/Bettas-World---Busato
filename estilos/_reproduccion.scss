@@ -1,0 +1,16 @@
+#grillaReproduccionMobile{
+    display: none;
+}
+.imgReproduccion{
+    height: auto;
+    width: 100%;
+}
+
+@media (max-width: 767px){
+    .carousel{
+        display: none;
+    }
+    #grillaReproduccionMobile{
+        display: grid;
+    }
+}

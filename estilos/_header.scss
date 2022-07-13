@@ -1,0 +1,16 @@
+.imgHeader{
+    height: 5vh;
+    width: auto;
+}
+#flexHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 410px){
+    .imgHeader{
+        display: none;
+    }
+}
